@@ -1,4 +1,8 @@
-sample-app-3-2
-==============
+# Ruby on Rails Tutorial: sample application
 
-Sample App, updated according to the 2nd edition of the Rails Tutorial by Michael Hartl.
+This is the sample application for
+[*Ruby on Rails Tutorial: Learn Rails by Example*](http://railstutorial.org/)
+by [Michael Hartl](http://michaelhartl/).
+
+Modifications and deviations from that text are completely the work of Joseph
+Caudle.
