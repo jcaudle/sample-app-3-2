@@ -9,8 +9,6 @@ gem 'rails', '3.2.3'
 
 gem 'pg', '~> 0.13.2'
 
-# Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
 group :development do
 #  gem 'annotate', '~> 2.4.1.beta'
 end
@@ -22,21 +20,12 @@ group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
   gem 'uglifier', '1.2.3'
-
-
-  # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  # gem 'therubyracer', :platform => :ruby
-
 end
 
 gem 'jquery-rails', '2.0.0'
 
 group :test, :development do
   gem 'rspec-rails', '2.9.0'
-  gem 'therubyracer'
-#  gem 'guard-rspec', '0.5.5'
-#  gem 'guard-spork', '0.3.2'
-#  gem 'spork', '0.9.0'
 end
 
 group :test do
