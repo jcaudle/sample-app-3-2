@@ -1,3 +1,7 @@
+*~
+.project
+.DS_Store
+bundler_stubs/
 *.rbc
 *.sassc
 *.swp
