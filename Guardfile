@@ -13,6 +13,7 @@ guard 'spork', :rspec_env => { 'RAILS_ENV' => 'test' } do
   watch('spec/spec_helper.rb')
   watch('test/test_helper.rb')
   watch('spec/support/')
+  watch('config/routes.rb')
 end
 
 guard 'rspec', :version => 2, :all_after_pass => false, :cli => '--drb' do
@@ -37,8 +38,8 @@ guard 'rspec', :version => 2, :all_after_pass => false, :cli => '--drb' do
   end
   watch(%r{^spec/support/(.+)\.rb$})                  { "spec" }
   watch('spec/spec_helper.rb')                        { "spec" }
-  watch('config/routes.rb')                           { "spec/routing" }
   watch('app/controllers/application_controller.rb')  { "spec/controllers" }
+  watch('config/routes.rb')                           { "spec" }
   # Capybara request specs
   watch(%r{^app/views/(.+)/.*\.(erb|haml)$})          { |m| "spec/requests/#{m[1]}_spec.rb" }
 end
