@@ -12,7 +12,7 @@ gem 'pg', '~> 0.13.2'
 group :development do
 	gem 'pry-rails'
   gem 'guard-rspec', '0.5.5'
-#	gem 'annotate', '~> 2.4.1.beta'
+	gem 'annotate', '~> 2.4.1.beta'
 end
 
 
