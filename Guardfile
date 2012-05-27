@@ -37,6 +37,7 @@ guard 'rspec', :version => 2, :cli => '--drb' do
   watch(%r{^app/views/(.+)/}) do |m|
     "spec/requests/#{m[1].singularize}_pages_spec.rb"
   end
+  watch(%r{^app/helpers/(.+)\.rb$})                   { "spec" }
   watch(%r{^spec/support/(.+)\.rb$})                  { "spec" }
   watch('spec/spec_helper.rb')                        { "spec" }
   watch('app/controllers/application_controller.rb')  { "spec/controllers" }

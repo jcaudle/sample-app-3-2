@@ -61,6 +61,7 @@ GEM
       factory_girl (~> 2.3.0)
       railties (>= 3.0.0)
     ffi (1.0.11)
+    growl (1.0.3)
     guard (1.0.3)
       ffi (>= 0.5.0)
       thor (>= 0.14.6)
@@ -117,6 +118,7 @@ GEM
       rdoc (~> 3.4)
       thor (~> 0.14.6)
     rake (0.9.2.2)
+    rb-fsevent (0.9.1)
     rdoc (3.12)
       json (~> 1.4)
     rspec (2.9.0)
@@ -172,12 +174,14 @@ DEPENDENCIES
   capybara (= 1.1.2)
   coffee-rails (~> 3.2.1)
   factory_girl_rails (= 1.4.0)
+  growl
   guard-rspec (= 0.5.5)
   guard-spork (= 0.3.2)
   jquery-rails (= 2.0.0)
   pg (~> 0.13.2)
   pry-rails
   rails (= 3.2.3)
+  rb-fsevent
   rspec-rails (= 2.9.0)
   sass-rails (~> 3.2.3)
   spork (= 0.9.0)
